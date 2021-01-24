@@ -15,7 +15,7 @@ public class RefOutExample
 
     static void ChangeMethod(out int i, ref int j)
     {
-        i = 8; // i argümanına bir değer atamak zorunludur.
-        j = j + 2; // j için böyle bir zorunluluk yoktur.
+        i = 8; // i argümanına bir değer atamak zorunludur...
+        j = j + 2; // j için böyle bir zorunluluk yoktur...
     }
 }
