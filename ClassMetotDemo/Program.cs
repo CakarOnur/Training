@@ -14,6 +14,12 @@ namespace ClassMetotDemo
             MusteriManager musteriManager = new MusteriManager();
 
             musteriManager.Add(musteri1);
+
+            musteriManager.Duzenle(musteri1);
+
+            musteriManager.Listele();
+
+            musteriManager.Sil(musteri1);
         }
     }
 }
